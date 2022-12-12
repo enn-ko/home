@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="./img/icon2.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meal app</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row text-center min-vh-100">
+        <div class="col-12 mt-5">
+          <!-- //header -->
+         <div class="header">
+          <div class=" d-flex justify-content-center align-items-center">
+            <img src="./img/icon2.png" class="header-img me-3" alt="">
+            <h3 class="">Find Meals For Your Ingredient</h3>
+          </div>
+          <blockquote class="mt-3">
+            Real food doesn't have ingredients,real food is ingredients. <br>
+            <cite>Jamie Oliver</cite>
+          </blockquote>
+         </div>
+         <!-- //search  -->
+         <div class="search-box d-flex justify-content-center align-items-center">
+          <input type="text" class="form-control form-control-lg rounded-pill w-50" id="search-input" placeholder="Search..." autofocus>
+          <button class="btn btn-primary btn-lg " id="search-btn">
+            <i class="bi bi-search"></i>
+          </button>
+         </div>
+        </div>
+         <!-- //result -->
+       <div class="results my-5">
+        <h3>Your Search Results:</h3>
+        <div class="col-12 col-md-4 col-lg-3 ">
+          <div class="card border-0 shadow mt-5">
+          <img src="./img/icon.png" class="result-img card-img-top" alt="">
+            <h4 class="card-title">Rice Noodle</h4>
+            <div class="card-body">
+              <button class="btn btn-outline-secondary rounded-pill px-3">More details</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- //more details  -->
+      <div class="details my-5">
+        <div class="col-10">
+         <div class="card border-0 shadow p-2 text-white">
+         <div class="card-body">
+          <button class="btn btn-outline-light text-danger rounded-circle card-close">
+            <i class="bi bi-bag-x"></i>
+          </button>
+          <h4>Meal Name</h4>
+          <small class="px-3 py-2 bg-white text-primary rounded">Category Name</small>
+          <h5 class="mt-2">Instruction:</h5>
+          <p class="px-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, excepturi. Quidem, amet veritatis expedita eum illum corporis sint a officia in illo explicabo nulla ex repellat? Quod quia perspiciatis ut!
+          </p>
+          <img src="./img/icon.png" class="details-img mb-3" alt=""> <br>
+          <a href="#" target="_blank" >
+            <button class="btn btn-light text-danger" id="details-close">
+              <i class="bi bi-youtube"> Watch video</i>
+            </button>
+          </a>
+         </div>
+         </div>
+        </div>
+      </div>
+       </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+:root
+{   
+    /* //bg color*/
+    --main-bg:hsl(222, 26%, 31%);
+    --toggle-bg:hsl(223, 31%, 20%);
+    --screen-bg: hsl(224, 36%, 15%);
+    /* //key color*/
+    --key-del:hsl(225, 21%, 49%);
+    --key-del-shadow:hsl(224, 28%, 35%);
+
+    --key-red:hsl(6, 63%, 50%);
+    --key-red-shadow:hsl(6, 70%, 34%);
+
+    --key-num:hsl(30, 25%, 89%);
+    --key-num-shadow: hsl(28, 16%, 65%);
+    /* text-color  */
+    --text-color: hsl(221, 14%, 31%);
+    --text-white:hsl(0, 0%, 100%);
+}

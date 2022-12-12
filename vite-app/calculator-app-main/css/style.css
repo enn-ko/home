@@ -1,0 +1,73 @@
+@import url();
+@import url(bootstrap.css);
+@import url(theme1.css);
+
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--text-white);
+    background: var(--main-bg);
+}
+/* //switch color  */
+.header .color
+{
+    width: 80px;
+    height: 25px;
+    background: var(--toggle-bg);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.color span
+{
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 3px;
+}
+.color .theme-1{
+    background: var(--key-red) !important;
+}
+.color .theme-2{
+    background: var(--key-red) !important;
+}
+.color .theme-3{
+    background: var(--key-red) !important;
+}
+
+/* //result  */
+.result
+{
+    background: var(--screen-bg);
+    margin-top: 30px;
+    padding: 20px;
+    font-weight: bolder;
+    text-align: end;
+    font-size: 32px;
+}
+
+/* //key  */
+.numArray1{
+    background-color: var(--screen-bg);
+}
+.calcArr1 div{
+    background-color: var(--key-num);
+    color: var(--text-color);
+    box-shadow: 0 0.2rem var(--key-num-shadow);
+}
+.calcArr2 div{
+    background-color: var(--key-red);
+    color: var(--text-white);
+    box-shadow: 0 0.2rem var(--key-red-shadow);
+}
+.calcArr{
+    background-color: var(--key-del) !important;
+    color: var(--text-white) !important;
+    box-shadow: 0 0.2rem var(--key-del-shadow) !important;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }

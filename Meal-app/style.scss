@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;0,800;1,100;1,500&display=swap');
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+$primary:#ff6a00;
+$secondary: #008eaa;
+$danger:#ff0b00;
+
+@import "bootstrap/scss/bootstrap.scss";
+
+.body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    overflow-x: hidden;
+}
+//header
+.header-img{
+    height: 50px;
+}
+//search
+#search-btn{
+    position: relative;
+    left: -50px;
+    color: var(--bs-light);
+    border-radius: 0 50% 50% 0;
+}
+
+.search-box .form-control{
+    border: 1px solid var(--bs-primary);
+}
+
+.search-box .form-control:focus{
+    box-shadow: none !important;
+}
+//result
+.result-img{
+    height: 180px;
+}
+
+//moredetails
+.details{
+    position: fixed;
+    display: none;
+}
+.details .card{
+    background-color: var(--bs-primary);
+}
+.details-img{
+    height: 250px;
+}
+.details .card .card-close{
+    position: relative;
+    right: -400px;
+}
